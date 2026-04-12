@@ -1,0 +1,30 @@
+{
+  "id": "55076fb5-e8ce-44df-83e9-fe1462c7aa81",
+  "created_at": "2026-04-12T10:59:30.203450",
+  "updated_at": "2026-04-12T10:59:33.078016",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-12T10:59:30.204451",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have enough information in the provided documents to answer this question accurately.",
+      "timestamp": "2026-04-12T10:59:33.078016",
+      "metadata": {
+        "sources": [],
+        "context_used": 0
+      }
+    }
+  ],
+  "metadata": {},
+  "context": {
+    "last_query": "hi",
+    "last_answer": "I don't have enough information in the provided documents to answer this question accurately.",
+    "mentioned_entities": [],
+    "current_topic": null,
+    "document_references": []
+  }
+}

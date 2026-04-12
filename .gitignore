@@ -1,0 +1,31 @@
+# Node modules (React frontend)
+node_modules/
+
+# Python virtual environment
+venv/
+.env/
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Mac/Linux temp
+*.swp
+
+# Build folders
+dist/
+build/

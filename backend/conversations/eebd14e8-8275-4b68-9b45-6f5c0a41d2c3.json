@@ -1,0 +1,30 @@
+{
+  "id": "eebd14e8-8275-4b68-9b45-6f5c0a41d2c3",
+  "created_at": "2026-04-12T10:59:04.057789",
+  "updated_at": "2026-04-12T10:59:09.123306",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-12T10:59:04.064789",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have enough information in the provided documents to answer this question accurately. The context provided is empty and does not contain any information related to the query \"hi\".",
+      "timestamp": "2026-04-12T10:59:09.123306",
+      "metadata": {
+        "sources": [],
+        "context_used": 0
+      }
+    }
+  ],
+  "metadata": {},
+  "context": {
+    "last_query": "hi",
+    "last_answer": "I don't have enough information in the provided documents to answer this question accurately. The context provided is empty and does not contain any information related to the query \"hi\".",
+    "mentioned_entities": [],
+    "current_topic": null,
+    "document_references": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "d9a1b327-934f-4a1c-a587-379342b74138",
+  "created_at": "2026-04-12T11:11:16.932933",
+  "updated_at": "2026-04-12T11:11:20.849215",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is the architecture used in medvanta solutions",
+      "timestamp": "2026-04-12T11:11:16.935936",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "MedVanta solutions utilize a **Production-Ready Microservices Platform** architecture.\n\n### Supporting Evidence:\n\nThe system architecture for MedVanta Pharmacy Solutions is based on a microservices approach, designed to support end-to-end pharmacy supply chain operations. Key components of this architecture include:\n\n*   **API Gateway**: This acts as a single entry point for all client requests, managing routing, authentication, and rate limiting. (Document Source 2)\n*   **Microservices Layer**: This layer consists of domain-specific services such as Authentication, Inventory, Billing, Reporting, and an AI Service. (Document Source 2)\n*   **Message Queue**: An asynchronous, event-driven communication mechanism between services, which enhances scalability. (Document Source 2)\n*   **Database & Cache**: PostgreSQL is used for persistent storage, while Redis is employed for caching frequently accessed data. (Document Source 2)\n\n### Knowledge Graph Connections:\n\n*   The system leverages a microservices platform.\n*   The architecture supports asynchronous event-driven communication via a Message Queue.\n*   An API Gateway supports client requests by handling routing, authentication, and rate limiting.\n\n### Citations:\n\n*   [CASE_STUDY_final.pdf (Chunk 0)]\n*   [CASE_STUDY_final.pdf (Chunk 12)]",
+      "timestamp": "2026-04-12T11:11:20.849215",
+      "metadata": {
+        "sources": [
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 0,
+            "relevance_score": 0.577,
+            "preview": "MedVanta Pharmacy Solutions Production-Ready Microservices Platform End-to-End Pharmacy Supply Chain Operations Prepared by:Dundigela Sai Snehitha Stream:Cognitive AI Date:April 2026 MedVanta Digital ..."
+          },
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 12,
+            "relevance_score": 0.561,
+            "preview": "Components MedVanta Pharmacy Solutions | Page 6 MedVanta Pharmacy Solutions7 3.3.1 API Gateway Acts as single entry point for all client requests handling routing, authentication, and rate lim- iting...."
+          }
+        ],
+        "context_used": 5
+      }
+    }
+  ],
+  "metadata": {},
+  "context": {
+    "last_query": "what is the architecture used in medvanta solutions",
+    "last_answer": "MedVanta solutions utilize a **Production-Ready Microservices Platform** architecture.\n\n### Supporting Evidence:\n\nThe system architecture for MedVanta Pharmacy Solutions is based on a microservices approach, designed to support end-to-end pharmacy supply chain operations. Key components of this architecture include:\n\n*   **API Gateway**: This acts as a single entry point for all client requests, managing routing, authentication, and rate limiting. (Document Source 2)\n*   **Microservices Layer**: This layer consists of domain-specific services such as Authentication, Inventory, Billing, Reporting, and an AI Service. (Document Source 2)\n*   **Message Queue**: An asynchronous, event-driven communication mechanism between services, which enhances scalability. (Document Source 2)\n*   **Database & Cache**: PostgreSQL is used for persistent storage, while Redis is employed for caching frequently accessed data. (Document Source 2)\n\n### Knowledge Graph Connections:\n\n*   The system leverages a microservices platform.\n*   The architecture supports asynchronous event-driven communication via a Message Queue.\n*   An API Gateway supports client requests by handling routing, authentication, and rate limiting.\n\n### Citations:\n\n*   [CASE_STUDY_final.pdf (Chunk 0)]\n*   [CASE_STUDY_final.pdf (Chunk 12)]",
+    "mentioned_entities": [
+      "what",
+      "architecture",
+      "used",
+      "medvanta",
+      "solutions"
+    ],
+    "current_topic": null,
+    "document_references": []
+  }
+}

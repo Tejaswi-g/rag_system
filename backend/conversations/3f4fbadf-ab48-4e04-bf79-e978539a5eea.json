@@ -1,0 +1,43 @@
+{
+  "id": "3f4fbadf-ab48-4e04-bf79-e978539a5eea",
+  "created_at": "2026-04-12T11:10:02.940809",
+  "updated_at": "2026-04-12T11:10:05.671776",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-12T11:10:02.943811",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have enough information in the provided documents to answer this question accurately. The documents discuss technical aspects of MedVanta Pharmacy Solutions, including repository structure, AI features, and API design, but do not contain information relevant to a greeting like \"hi\".",
+      "timestamp": "2026-04-12T11:10:05.671776",
+      "metadata": {
+        "sources": [
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 19,
+            "relevance_score": 0.402,
+            "preview": "havior insights •Barcode integration for faster billing •Mobile application for managers on the go 16 Code Repository Structure The complete implementation is available in the accompanying repository...."
+          },
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 2,
+            "relevance_score": 0.401,
+            "preview": ". . . . . . . . 8 6.2 Sales and Invoicing Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 6.3 Stock Replenishment Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..."
+          }
+        ],
+        "context_used": 2
+      }
+    }
+  ],
+  "metadata": {},
+  "context": {
+    "last_query": "hi",
+    "last_answer": "I don't have enough information in the provided documents to answer this question accurately. The documents discuss technical aspects of MedVanta Pharmacy Solutions, including repository structure, AI features, and API design, but do not contain information relevant to a greeting like \"hi\".",
+    "mentioned_entities": [],
+    "current_topic": null,
+    "document_references": []
+  }
+}
