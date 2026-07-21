@@ -165,34 +165,63 @@ The LLM generates an explainable answer using:
 # Folder Structure
 
 ```
-GraphRAG/
-│
-├── backend/
+advanced-rag-system/
+├── README.md
+├── TODO.md
+├── arango-init.js
+├── backend
+│   ├── Dockerfile
 │   ├── app.py
+│   ├── chroma_db
+│   │   ├── 479fb61c-f33f-496d-a722-2a722ecb3dd6
+│   │   │   ├── data_level0.bin
+│   │   │   ├── header.bin
+│   │   │   ├── length.bin
+│   │   │   └── link_lists.bin
+│   │   └── chroma.sqlite3
 │   ├── config.py
-│   ├── knowledge_graph.py
+│   ├── conversation_manager.py
+│   ├── conversations
+│   ├── document_processor.py
 │   ├── hybrid_retriever.py
-│   ├── entity_extractor.py
+│   ├── knowledge_graph.py
+│   ├── llm_handler.py
+│   ├── requirements.txt
+│   ├── uploads
 │   ├── vector_store.py
-│   ├── llm.py
-│   └── uploads/
-│
-├── frontend/
-│   ├── src/
-│   │
-│   ├── components/
-│   │   ├── ChatInterface.js
-│   │   ├── DocumentUpload.js
-│   │   ├── GraphVisualization.js
-│   │   ├── Dashboard.js
-│   │   ├── Sidebar.js
-│   │   ├── TopHeader.js
-│   │   └── Home.js
-│   │
-│   ├── theme.js
-│   └── App.js
-│
-└── README.md
+├── docker-compose.yml
+└── frontend
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   └── index.html
+    └── src
+        ├── App.css
+        ├── App.js
+        ├── components
+        │   ├── ChatInterface.js
+        │   ├── Dashboard.js
+        │   ├── DocumentUpload.js
+        │   ├── GraphVisualization.js
+        │   ├── Home.js
+        │   ├── Sidebar.js
+        │   ├── SourceCitation.js
+        │   ├── documents
+        │   │   ├── DocumentCard.js
+        │   │   ├── DocumentGrid.js
+        │   │   ├── DocumentToolbar.js
+        │   │   ├── EmptyState.js
+        │   │   ├── InspectorPanel.js
+        │   │   ├── KnowledgePipeline.js
+        │   │   ├── LeftPanel.js
+        │   │   └── UploadDropzone.js
+        │   └── layout
+        │       ├── AppLayout.js
+        │       ├── Sidebar.js
+        │       └── TopHeader.js
+        ├── index.css
+        ├── index.js
+        └── theme.js
 ```
 
 ---
