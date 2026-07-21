@@ -1,7 +1,7 @@
 {
   "id": "9f1dcc91-8534-4ef9-b2a3-22f21bb9c28c",
   "created_at": "2026-04-12T11:12:43.092804",
-  "updated_at": "2026-04-12T11:12:50.529887",
+  "updated_at": "2026-07-20T22:22:25.343102",
   "messages": [
     {
       "role": "user",
@@ -30,16 +30,89 @@
         ],
         "context_used": 5
       }
+    },
+    {
+      "role": "user",
+      "content": "what is medvanta",
+      "timestamp": "2026-07-20T22:21:29.127224",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "MedVanta refers to **MedVanta Pharmacy Solutions**, which is described as a production-ready microservices platform designed for end-to-end pharmacy supply chain operations. It is part of a \"MedVanta Digital Transformation Initiative.\"\n\n### Key Aspects of MedVanta Pharmacy Solutions:\n\n*   **Purpose:** It is a platform built to manage and streamline the entire supply chain operations for pharmacies.\n*   **Architecture:** It utilizes a microservices-based architecture.\n*   **Key Components:** The system architecture includes several essential components:\n    *   **API Gateway:** Serves as a single entry point for all client requests, handling routing, authentication, and rate limiting.\n    *   **Microservices Layer:** Comprises domain-specific services such as Authentication, Inventory, Billing, Reporting, and an AI Service.\n    *   **Message Queue:** Facilitates asynchronous event-driven communication between services to enhance scalability.\n    *   **Database & Cache:** Uses PostgreSQL for persistent data storage and Redis for caching frequently accessed data to improve performance.\n\n### Supporting Evidence:\n\n*   \"MedVanta Pharmacy Solutions Production-Ready Microservices Platform End-to-End Pharmacy Supply Chain Operations\" (CASE_STUDY_final.pdf, Chunk 0)\n*   \"MedVanta Digital Transformation Initiative\" (CASE_STUDY_final.pdf, Chunk 0)\n*   \"Components MedVanta Pharmacy Solutions... 3.3.1 API Gateway Acts as single entry point for all client requests handling routing, authentication, and rate lim- iting. 3.3.2 Microservices Layer Domain-specific services: Authentication, Inventory, Billing, Reporting, and AI Service. 3.3.3 Message Queue Enables asynchronous event-driven communication between services for improved scalability. 3.3.4 Database & Cache PostgreSQL for persistent storage, Redis for caching frequently accessed data.\" (CASE_STUDY_final.pdf, Chunk 12)\n*   \"3 System Architecture 5 3.1 Architecture Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 3.2 Architecture Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 3.3 Key Components . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6\" (CASE_STUDY_final.pdf, Chunk 0)\n\n### Knowledge Graph Connections:\n\nI don't have enough information in the provided knowledge graph to establish specific connections or relationships for \"MedVanta.\" The previous knowledge graph connections were related to \"microservices architecture\" in general.",
+      "timestamp": "2026-07-20T22:21:36.012655",
+      "metadata": {
+        "sources": [
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 12,
+            "relevance_score": 0.519,
+            "preview": "Components MedVanta Pharmacy Solutions | Page 6 MedVanta Pharmacy Solutions7 3.3.1 API Gateway Acts as single entry point for all client requests handling routing, authentication, and rate lim- iting...."
+          },
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 0,
+            "relevance_score": 0.491,
+            "preview": "MedVanta Pharmacy Solutions Production-Ready Microservices Platform End-to-End Pharmacy Supply Chain Operations Prepared by:Dundigela Sai Snehitha Stream:Cognitive AI Date:April 2026 MedVanta Digital ..."
+          }
+        ],
+        "context_used": 2
+      }
+    },
+    {
+      "role": "user",
+      "content": "explain about snehitha",
+      "timestamp": "2026-07-20T22:22:17.672603",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Dundigela Sai Snehitha is an aspiring AI and software engineer with a strong foundation in machine learning, generative AI, and full-stack development. She is currently pursuing a B.Tech in Computer Science Engineering at Keshav Memorial Institute of Technology, with an impressive CGPA of 9.2, expected to graduate between 2023 and 2027.\n\n### Key Aspects of Dundigela Sai Snehitha:\n\n*   **Career Objective:** Seeks opportunities to build scalable, intelligent systems that address real-world challenges, driven by a keen interest in problem-solving.\n*   **Education:** B.Tech in CSE from Keshav Memorial Institute of Technology (2023-2027) and completed Board of Intermediate Education, Telangana - MPC from Sri Chaithanya Jr.\n*   **Skills:** Proficient in programming languages like Python, C++, Java, and JavaScript. Her technical stack includes React, Node.js, SQL, MongoDB, Git, Docker, AWS, and Azure. She also has experience with frameworks and tools such as Flask and Async Web Server, and hardware like ESP32, Seeed Studio XIAO ESP32, and microphone modules.\n*   **Achievements & Activities:**\n    *   Waitlisted for Smart India Hackathon (SIH 2025), recognized for innovation and problem-solving.\n    *   Consistently maintained top academic performance.\n    *   Solved over 500 LeetCode problems, demonstrating strong Data Structures and Algorithms (DSA) skills.\n    *   Participated in Google Developer Groups (GDG) on Campus events, including the Solution Challenge, Codenovate 2.0 (a Technical Coding Event), and Prakalp Project Expo.\n\n### Supporting Evidence:\n\n*   \"Dundigela Sai Snehitha dsaisnehitha2205@gmail.com +91 8919393161 Hyderabad, India snehitha2205 snehitha2205 Sai Snehitha Dundigela CAREER OBJECTIVE Aspiring AI and software engineer with a strong foundation in machine learning, generative AI, and full- stack development, and a keen interest in problem solving, seeking an opportunity to build scalable, intelligent systems that address real-world challenges.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 0)\n*   \"EDUCATION B.Tech - CSE, Keshav Memorial Institute of Technology CGPA: 9.22023 – 2027 Board of Intermediate Education, Telangana - MPC, Sri Chaithanya Jr.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 0)\n*   \"se, Async Web Server •Hardware: ESP32, Seeed Studio XIAO ESP32, Microphone module ACHIEVEMENTS & ACTIVITIES SIH 2025 – Waitlisted for Smart India Hackathon, recognizing innovation and problem-solving. Academic Excellence – Consistently maintained top academic performance.DSA – Solved 500+ LeetCode problems. Participated in Google Developer Groups (GDG) on Campus – Solution Challenge, Codenovate 2.0 - Technical Coding Event and Prakalp Project Expo.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 2)\n\n### Knowledge Graph Connections:\n\nI don't have enough information in the provided knowledge graph to establish specific connections or relationships for \"Snehitha.\" The provided context primarily describes her professional and academic profile.",
+      "timestamp": "2026-07-20T22:22:25.343102",
+      "metadata": {
+        "sources": [
+          {
+            "filename": "Dundigela_Sai_Snehitha_Resume_.pdf",
+            "chunk_index": 0,
+            "relevance_score": 0.418,
+            "preview": "Dundigela Sai Snehitha dsaisnehitha2205@gmail.com +91 8919393161 Hyderabad, India snehitha2205 snehitha2205 Sai Snehitha Dundigela CAREER OBJECTIVE Aspiring AI and software engineer with a strong foun..."
+          },
+          {
+            "filename": "Abstract_1.pdf",
+            "chunk_index": 3,
+            "relevance_score": 0.394,
+            "preview": "s factory planning, manufacturing, maintenance support, and enterprise knowledge manage- ment, where information is distributed across large collections of documents, tables, and engineering diagrams...."
+          },
+          {
+            "filename": "Dundigela_Sai_Snehitha_Resume_.pdf",
+            "chunk_index": 2,
+            "relevance_score": 0.382,
+            "preview": "se, Async Web Server •Hardware: ESP32, Seeed Studio XIAO ESP32, Microphone module ACHIEVEMENTS & ACTIVITIES SIH 2025 – Waitlisted for Smart India Hackathon, recognizing innovation and problem-solving...."
+          },
+          {
+            "filename": "CASE_STUDY_final.pdf",
+            "chunk_index": 1,
+            "relevance_score": 0.379,
+            "preview": "onents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 3.3.1 API Gateway . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 3.3.2 Microservices Layer . . ...."
+          }
+        ],
+        "context_used": 4
+      }
     }
   ],
   "metadata": {},
   "context": {
-    "last_query": "what is microservices architecture",
-    "last_answer": "Microservices architecture is an approach where an application is structured as a collection of small, independent services, each designed to handle a specific business function. This architecture leverages the division of an application into multiple independent services to enhance various aspects of system development and operation.\n\nHere's a breakdown of its key aspects:\n\n### Key Characteristics and Principles\n*   **Independent Services:** The application is broken down into multiple services that operate independently.\n*   **Specific Business Function:** Each microservice is responsible for a distinct business capability or function.\n*   **Loose Coupling:** Services are designed to be loosely coupled, meaning they have minimal dependencies on each other.\n*   **Independent Deployability:** Each microservice can be developed, deployed, and managed independently, allowing for faster development cycles.\n*   **Fault Isolation:** The independent nature of services helps in isolating faults, preventing a failure in one service from bringing down the entire application.\n\n### Benefits\n*   **Scalability:** The architecture ensures scalability, allowing the system to efficiently handle increasing user load and transaction volume.\n*   **Maintainability:** Independent services are easier to maintain and update.\n*   **Flexibility:** It provides flexibility in technology choices and development processes for different services.\n*   **Faster Development Cycles:** Independent deployment enables quicker iterations and releases.\n\n### Components and Communication\nA microservices architecture typically includes several components to facilitate its operation:\n*   **Microservices Layer:** This is the core layer comprising the independent services themselves.\n*   **API Gateway:** An API Gateway is often supported to act as a single entry point for clients, routing requests to the appropriate microservice.\n*   **Message Queue:** Message queues are commonly used to enable reliable asynchronous communication between services.\n*   **Database & Cache:** Each microservice might have its own database or share a common one, and caching mechanisms are used for performance.\n\nCommunication within a microservices architecture supports both synchronous and asynchronous methods to ensure real-time responsiveness and reliable background processing.\n\n### Supporting Evidence\n*   \"The proposed system follows a microservices-based architecture, where the application is divided into multiple independent services, each responsible for a specific business function.\" (CASE_STUDY_final.pdf, Chunk 10)\n*   \"This approach ensures scalability, maintainability, and flexibility, allowing the system to handle increasing user load and transaction volume efficiently.\" (CASE_STUDY_final.pdf, Chunk 10)\n*   \"Each microservice is designed to be loosely coupled and independently deployable, enabling faster development cycles and easier fault isolation.\" (CASE_STUDY_final.pdf, Chunk 10)\n*   \"The architecture supports both synchronous and asynchronous communication to ensure real-time responsiveness and reliable background processing.\" (CASE_STUDY_final.pdf, Chunk 10)\n*   Components mentioned include \"API Gateway,\" \"Microservices Layer,\" \"Message Queue,\" and \"Database & Cache.\" (CASE_STUDY_final.pdf, Chunk 1)\n\n### Knowledge Graph Connections\n*   A system can **leverage** microservices architecture.\n*   Microservices architecture **supports** various forms of communication.\n*   Microservices architecture **supports** the use of a Gateway (e.g., API Gateway).",
+    "last_query": "explain about snehitha",
+    "last_answer": "Dundigela Sai Snehitha is an aspiring AI and software engineer with a strong foundation in machine learning, generative AI, and full-stack development. She is currently pursuing a B.Tech in Computer Science Engineering at Keshav Memorial Institute of Technology, with an impressive CGPA of 9.2, expected to graduate between 2023 and 2027.\n\n### Key Aspects of Dundigela Sai Snehitha:\n\n*   **Career Objective:** Seeks opportunities to build scalable, intelligent systems that address real-world challenges, driven by a keen interest in problem-solving.\n*   **Education:** B.Tech in CSE from Keshav Memorial Institute of Technology (2023-2027) and completed Board of Intermediate Education, Telangana - MPC from Sri Chaithanya Jr.\n*   **Skills:** Proficient in programming languages like Python, C++, Java, and JavaScript. Her technical stack includes React, Node.js, SQL, MongoDB, Git, Docker, AWS, and Azure. She also has experience with frameworks and tools such as Flask and Async Web Server, and hardware like ESP32, Seeed Studio XIAO ESP32, and microphone modules.\n*   **Achievements & Activities:**\n    *   Waitlisted for Smart India Hackathon (SIH 2025), recognized for innovation and problem-solving.\n    *   Consistently maintained top academic performance.\n    *   Solved over 500 LeetCode problems, demonstrating strong Data Structures and Algorithms (DSA) skills.\n    *   Participated in Google Developer Groups (GDG) on Campus events, including the Solution Challenge, Codenovate 2.0 (a Technical Coding Event), and Prakalp Project Expo.\n\n### Supporting Evidence:\n\n*   \"Dundigela Sai Snehitha dsaisnehitha2205@gmail.com +91 8919393161 Hyderabad, India snehitha2205 snehitha2205 Sai Snehitha Dundigela CAREER OBJECTIVE Aspiring AI and software engineer with a strong foundation in machine learning, generative AI, and full- stack development, and a keen interest in problem solving, seeking an opportunity to build scalable, intelligent systems that address real-world challenges.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 0)\n*   \"EDUCATION B.Tech - CSE, Keshav Memorial Institute of Technology CGPA: 9.22023 – 2027 Board of Intermediate Education, Telangana - MPC, Sri Chaithanya Jr.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 0)\n*   \"se, Async Web Server •Hardware: ESP32, Seeed Studio XIAO ESP32, Microphone module ACHIEVEMENTS & ACTIVITIES SIH 2025 – Waitlisted for Smart India Hackathon, recognizing innovation and problem-solving. Academic Excellence – Consistently maintained top academic performance.DSA – Solved 500+ LeetCode problems. Participated in Google Developer Groups (GDG) on Campus – Solution Challenge, Codenovate 2.0 - Technical Coding Event and Prakalp Project Expo.\" (Dundigela_Sai_Snehitha_Resume_.pdf, Chunk 2)\n\n### Knowledge Graph Connections:\n\nI don't have enough information in the provided knowledge graph to establish specific connections or relationships for \"Snehitha.\" The provided context primarily describes her professional and academic profile.",
     "mentioned_entities": [
       "what",
       "microservices",
-      "architecture"
+      "architecture",
+      "what",
+      "medvanta",
+      "explain",
+      "about",
+      "snehitha"
     ],
     "current_topic": null,
     "document_references": []
