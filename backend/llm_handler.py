@@ -7,7 +7,7 @@ import time
 class LLMHandler:
     def __init__(self):
         # Hardcode the API key (temporary for testing)
-        self.gemini_api_key = ""
+        self.gemini_api_key ='Ab8RN6KsWi1A_CdWgjmq84sQnzc1umn3Cdrreu1KO5LDVI1Kjg'
         
         # Using Gemini 2.5 Flash (confirmed working)
         self.gemini_url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
