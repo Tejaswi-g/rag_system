@@ -1,0 +1,35 @@
+{
+  "id": "1251595c-c0db-47c8-8516-9db299c50a9b",
+  "created_at": "2026-07-22T09:17:47.149011",
+  "updated_at": "2026-07-22T09:17:49.534115",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Summarize the latest technical guidelines",
+      "timestamp": "2026-07-22T09:17:47.152953",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "There was an issue with the request to Gemini. Please check the input and try again.",
+      "timestamp": "2026-07-22T09:17:49.534115",
+      "metadata": {
+        "sources": [],
+        "context_used": 0
+      }
+    }
+  ],
+  "metadata": {},
+  "context": {
+    "last_query": "Summarize the latest technical guidelines",
+    "last_answer": "There was an issue with the request to Gemini. Please check the input and try again.",
+    "mentioned_entities": [
+      "summarize",
+      "latest",
+      "technical",
+      "guidelines"
+    ],
+    "current_topic": null,
+    "document_references": []
+  }
+}

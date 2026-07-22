@@ -7,13 +7,20 @@ import time
 class LLMHandler:
     def __init__(self):
         # Hardcode the API key (temporary for testing)
-        self.gemini_api_key =''
+        self.gemini_api_key = Config.GEMINI_API_KEY
         
         # Using Gemini 2.5 Flash (confirmed working)
-        self.gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"        
-        print('🔄 LLMHandler initialized with Gemini 3.5 Flash')
-        print(f'🔑 API Key present: {"Yes" if self.gemini_api_key else "No"}')
-        
+        self.gemini_model = Config.GEMINI_MODEL
+
+        self.gemini_model = Config.GEMINI_MODEL
+
+        self.gemini_url = (
+            f"https://generativelanguage.googleapis.com/v1beta/models/"
+            f"{self.gemini_model}:generateContent"
+        )
+
+        print("🔄 LLMHandler initialized with Gemini")
+        print(f"🔑 API Key present: {'Yes' if self.gemini_api_key else 'No'}")        
         # Fallback to config if no hardcoded key
         if not self.gemini_api_key:
             self.gemini_api_key = Config.GEMINI_API_KEY

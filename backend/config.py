@@ -5,8 +5,9 @@ load_dotenv()
 
 class Config:
     # Gemini API
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-gemini-api-key-here")
-    GEMINI_MODEL = "gemini-1.5-pro"  # or "gemini-1.5-flash" for faster responses
+   # Gemini API
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    GEMINI_MODEL = os.getenv("GEMINI_MODEL")
     
     # ChromaDB
     CHROMA_PERSIST_DIR = "./chroma_db"
