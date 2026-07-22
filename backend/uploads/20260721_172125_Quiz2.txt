@@ -1,0 +1,425 @@
+Q1. What will be the output of the following pseudocode?
+
+Integer p = 1
+
+For(each i from 1 to 5)
+    If(i % 2 == 0)
+        Continue
+    End If
+    p = p * i
+End For
+
+Print p
+
+   A) 15
+   B) 12
+   C) 20
+   D) 30
+
+Answer: A
+
+============================================================
+
+Q2. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int a = 15;
+
+    printf("%d", a & (~7));
+
+    return 0;
+}
+
+   A) 8
+   B) 7
+   C) 15
+   D) 0
+
+Answer: A
+
+============================================================
+
+Q3. What will be the output of the following pseudocode?
+
+Integer x = 20
+
+If((x > 10) || (++x > 20))
+    x = x - 5
+End If
+
+Print x
+
+   A) 15
+   B) 16
+   C) 20
+   D) 21
+
+Answer: A
+
+============================================================
+
+Q4. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 16;
+
+    printf("%d", x >> 2 << 1);
+
+    return 0;
+}
+
+   A) 8
+   B) 4
+   C) 16
+   D) 32
+
+Answer: A
+
+============================================================
+
+Q5. What will be the output of the following pseudocode?
+
+Integer p = 5
+
+For(each i from 1 to 3)
+    p = p + i
+End For
+
+For(each i from 3 down to 1)
+    p = p - i
+End For
+
+Print p
+
+   A) 5
+   B) 6
+   C) 8
+   D) 11
+
+Answer: A
+
+============================================================
+
+Q6. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 9;
+
+    printf("%d", x | (x << 1));
+
+    return 0;
+}
+
+   A) 25
+   B) 27
+   C) 18
+   D) 9
+
+Answer: B
+
+============================================================
+
+Q7. What will be the output of the following pseudocode?
+
+Integer p = 4
+
+For(each i from 1 to 3)
+    p = p * 2
+End For
+
+If(p > 20)
+    p = p / 4
+End If
+
+Print p
+
+   A) 4
+   B) 8
+   C) 16
+   D) 32
+
+Answer: B
+
+============================================================
+
+Q8. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 6;
+
+    printf("%d", x & 1);
+
+    return 0;
+}
+
+   A) 0
+   B) 1
+   C) 6
+   D) 7
+
+Answer: A
+
+============================================================
+
+Q9. What will be the output of the following pseudocode?
+
+Integer p = 10
+
+While(p > 1)
+    p = p / 2
+End While
+
+Print p
+
+   A) 0
+   B) 1
+   C) 2
+   D) 5
+
+Answer: B
+
+============================================================
+
+Q10. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 3;
+
+    printf("%d", x << x);
+
+    return 0;
+}
+
+   A) 12
+   B) 24
+   C) 16
+   D) 18
+
+Answer: B
+
+============================================================
+
+Q11. What will be the output of the following pseudocode?
+
+Integer p = 3, q = 4
+
+If((p  3))
+    q = q + p
+End If
+
+Print p + q
+
+   A) 8
+   B) 11
+   C) 12
+   D) 10
+
+Answer: C
+
+============================================================
+
+Q12. What will be the output of the following pseudocode?
+
+Integer p = 2
+
+For(each i from 1 to 4)
+    p = p + p
+End For
+
+Print p
+
+   A) 16
+   B) 24
+   C) 32
+   D) 64
+
+Answer: C
+
+============================================================
+
+Q13. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 11;
+
+    printf("%d", x & (x + 1));
+
+    return 0;
+}
+
+   A) 8
+   B) 10
+   C) 12
+   D) 11
+
+Answer: A
+
+============================================================
+
+Q14. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 29;
+
+    printf("%d", x ^ (x >> 1));
+
+    return 0;
+}
+
+   A) 19
+   B) 17
+   C) 18
+   D) 15
+
+Answer: A
+
+============================================================
+
+Q15. What will be the output of the following pseudocode?
+
+Integer a = 10
+Integer b = 5
+
+a = a XOR b
+b = a XOR b
+a = a XOR b
+
+Print a * b
+
+   A) 25
+   B) 50
+   C) 75
+   D) 100
+
+Answer: B
+
+============================================================
+
+Q16. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int a = 7;
+
+    printf("%d", ~a);
+
+    return 0;
+}
+
+   A) -7
+   B) -8
+   C) 8
+   D) 7
+
+Answer: B
+
+============================================================
+
+Q17. What will be the output of the following pseudocode?
+
+Integer p = 8
+Integer q = 3
+
+While(q > 0)
+    p = p - q
+    q = q - 1
+End While
+
+Print p
+
+   A) 2
+   B) 3
+   C) 4
+   D) 5
+
+Answer: A
+
+============================================================
+
+Q18. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int a = 5;
+
+    printf("%d", (a > 2);
+
+    return 0;
+}
+
+   A) 5
+   B) 10
+   C) 20
+   D) 40
+
+Answer: B
+
+============================================================
+
+Q19. What will be the output of the following pseudocode?
+
+Integer x = 2
+Integer y = 3
+
+For(each i from 1 to 3)
+    x = x * y
+    y = y - 1
+End For
+
+Print x + y
+
+   A) 12
+   B) 13
+   C) 14
+   D) 15
+
+Answer: A
+
+============================================================
+
+Q20. What will be the output of the following C code?
+
+#include 
+
+int main()
+{
+    int x = 18;
+
+    printf("%d", x & (-x));
+
+    return 0;
+}
+
+   A) 1
+   B) 2
+   C) 4
+   D) 8
+
+Answer: B
+
+============================================================

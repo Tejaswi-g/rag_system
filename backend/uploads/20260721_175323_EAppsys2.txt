@@ -1,0 +1,331 @@
+Q1. The average temperature for Wednesday, Thursday and Friday was 40°C. The average for Thursday, Friday and Saturday was 41°C. If the temperature on Saturday was 42°C, what was the temperature on Wednesday?
+
+   A) 39°C
+   B) 44°C
+   C) 38°C
+   D) 41°C
+
+Answer: A
+
+============================================================
+
+Q2. I forgot the last digit of a 7-digit telephone number. If one randomly dials the final three digits after correctly dialing the first four digits, what is the probability of dialing the correct number?
+
+   A) 1/1000
+   B) 1/1001
+   C) 1/999
+   D) 1/990
+
+Answer: A
+
+============================================================
+
+Q3. 3. A shopkeeper expects a gain of 22.5% on his cost price. If in a week his sales were Rs.392, what was his profit?
+
+   A) Rs.18.20
+   B) Rs.70
+   C) Rs.72
+   D) Rs.88.25
+
+Answer: C
+
+============================================================
+
+Q4. 4. What will be the ratio of simple interest earned on the same principal at the same rate for 6 years and 9 years?
+
+   A) 1:3
+   B) 1:4
+   C) 2:3
+   D) Data inadequate
+
+Answer: C
+
+============================================================
+
+Q5. 5. A, B, C, D and E are sitting on a bench. A is sitting next to B. C is sitting next to D. D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position is A sitting?
+
+   A) Between B and D
+   B) Between B and C
+   C) Between E and D
+   D) Between C and E
+
+Answer: B
+
+============================================================
+
+Q6. 6. Deepak said to Nitin, "That boy playing with the football is the younger of the two brothers of the daughter of my father's wife." How is the boy playing football related to Deepak?
+
+   A) Son
+   B) Brother
+   C) Cousin
+   D) Brother-in-law
+
+Answer: B
+
+============================================================
+
+Q7. 7. Arrange the following in a meaningful sequence: 1. Word 2. Paragraph 3. Sentence 4. Letters 5. Phrase
+
+   A) 4,1,5,2,3
+   B) 4,1,3,5,2
+   C) 4,2,5,1,3
+   D) 4,1,5,3,2
+
+Answer: D
+
+============================================================
+
+Q8. 8. Flow : River :: Stagnant : ?
+
+   A) Rain
+   B) Stream
+   C) Pool
+   D) Canal
+
+Answer: C
+
+============================================================
+
+Q9. 9. Choose the option that correctly changes the following sentence into Passive Voice: "They greet me cheerfully every morning."
+
+   A) Every morning I was greeted cheerfully.
+   B) I am greeted cheerfully by them every morning.
+   C) I am being greeted cheerfully by them every morning.
+   D) Cheerful greeting is done by them every morning to me.
+
+Answer: B
+
+============================================================
+
+Q10. 10. Choose the word which can be substituted for the given sentence: "Extreme old age when a man behaves like a fool."
+
+   A) Imbecility
+   B) Senility
+   C) Dotage
+   D) Superannuation
+
+Answer: C
+
+============================================================
+
+Q11. 11. Choose the pair which has the same relationship as DIVA : OPERA.
+
+   A) Producer : Theatre
+   B) Director : Drama
+   C) Conductor : Bus
+   D) Thespian : Play
+
+Answer: D
+
+============================================================
+
+Q12. 12. Complete the sentence: "His appearance is unsmiling but ________."
+
+   A) his heart is full of compassion for others.
+   B) he looks very serious on most occasions.
+   C) people are afraid of him.
+   D) he is uncompromising on matters of task performance.
+   5) he is full of jealousy towards his colleagues.
+
+Answer: A
+
+============================================================
+
+Q13. 13. Choose the exact opposite of the word "ENORMOUS".
+
+   A) Soft
+   B) Average
+   C) Tiny
+   D) Weak
+
+Answer: C
+
+============================================================
+
+Q14. 14. Choose the correctly spelt word.
+
+   A) Accomodation
+   B) Acommodation
+   C) Accommodation
+   D) Accommmodation
+
+Answer: C
+
+============================================================
+
+Q15. 15. If all roses are flowers and some flowers are red, which of the following is definitely true?
+
+   A) All roses are red.
+   B) Some roses are red.
+   C) All flowers are roses.
+   D) All roses are flowers.
+
+Answer: D
+
+============================================================
+
+Q16. A shopkeeper expects a gain of 22.5% on his cost price. If in a week his sales were Rs.392, what was his profit?
+
+   A) Rs.18.20
+   B) Rs.70
+   C) Rs.72
+   D) Rs.88.25
+
+Answer: C
+
+============================================================
+
+Q17. A, B, C, D and E are sitting on a bench. A is sitting next to B. C is sitting next to D. D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position is A sitting?
+
+   A) Between B and D
+   B) Between B and C
+   C) Between E and D
+   D) Between C and E
+
+Answer: B
+
+============================================================
+
+Q18. Arrange the following in a meaningful sequence: 1. Word 2. Paragraph 3. Sentence 4. Letters 5. Phrase
+
+   A) 4,1,5,2,3
+   B) 4,1,3,5,2
+   C) 4,2,5,1,3
+   D) 4,1,5,3,2
+
+Answer: D
+
+============================================================
+
+Q19. Choose the correctly spelt word.
+
+   A) Accomodation
+   B) Acommodation
+   C) Accommodation
+   D) Accommmodation
+
+Answer: C
+
+============================================================
+
+Q20. Choose the exact opposite of the word "ENORMOUS".
+
+   A) Soft
+   B) Average
+   C) Tiny
+   D) Weak
+
+Answer: C
+
+============================================================
+
+Q21. Choose the option that correctly changes the following sentence into Passive Voice: "They greet me cheerfully every morning."
+
+   A) Every morning I was greeted cheerfully.
+   B) I am greeted cheerfully by them every morning.
+   C) I am being greeted cheerfully by them every morning.
+   D) Cheerful greeting is done by them every morning to me.
+
+Answer: B
+
+============================================================
+
+Q22. Choose the pair which has the same relationship as DIVA : OPERA.
+
+   A) Producer : Theatre
+   B) Director : Drama
+   C) Conductor : Bus
+   D) Thespian : Play
+
+Answer: D
+
+============================================================
+
+Q23. Choose the word which can be substituted for the given sentence: "Extreme old age when a man behaves like a fool."
+
+   A) Imbecility
+   B) Senility
+   C) Dotage
+   D) Superannuation
+
+Answer: C
+
+============================================================
+
+Q24. Complete the sentence: "His appearance is unsmiling but ________."
+
+   A) his heart is full of compassion for others.
+   B) he looks very serious on most occasions.
+   C) people are afraid of him.
+   D) he is uncompromising on matters of task performance.
+   5) he is full of jealousy towards his colleagues.
+
+Answer: A
+
+============================================================
+
+Q25. Deepak said to Nitin, "That boy playing with the football is the younger of the two brothers of the daughter of my father's wife." How is the boy playing football related to Deepak?
+
+   A) Son
+   B) Brother
+   C) Cousin
+   D) Brother-in-law
+
+Answer: B
+
+============================================================
+
+Q26. Flow : River :: Stagnant : ?
+
+   A) Rain
+   B) Stream
+   C) Pool
+   D) Canal
+
+Answer: C
+
+============================================================
+
+Q27. I forgot the last digit of a 7-digit telephone number. If one randomly dials the final three digits after correctly dialing the first four digits, what is the probability of dialing the correct number?
+
+   A) 1/1000
+   B) 1/1001
+   C) 1/999
+   D) 1/990
+
+Answer: A
+
+============================================================
+
+Q28. If all roses are flowers and some flowers are red, which of the following is definitely true?
+
+   A) All roses are red.
+   B) Some roses are red.
+   C) All flowers are roses.
+   D) All roses are flowers.
+
+Answer: D
+
+============================================================
+
+Q29. The average temperature for Wednesday, Thursday and Friday was 40°C. The average for Thursday, Friday and Saturday was 41°C. If the temperature on Saturday was 42°C, what was the temperature on Wednesday?
+
+   A) 39°C
+   B) 44°C
+   C) 38°C
+   D) 41°C
+
+Answer: A
+
+============================================================
+
+Q30. What will be the ratio of simple interest earned on the same principal at the same rate for 6 years and 9 years?
+
+   A) 1:3
+   B) 1:4
+   C) 2:3
+   D) Data inadequate
+
+Answer: C
+
+============================================================
