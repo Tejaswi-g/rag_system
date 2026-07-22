@@ -7,12 +7,11 @@ import time
 class LLMHandler:
     def __init__(self):
         # Hardcode the API key (temporary for testing)
-        self.gemini_api_key ='Ab8RN6KsWi1A_CdWgjmq84sQnzc1umn3Cdrreu1KO5LDVI1Kjg'
+        self.gemini_api_key ='AQ.Ab8RN6KsWi1A_CdWgjmq84sQnzc1umn3Cdrreu1KO5LDVI1Kjg'
         
         # Using Gemini 2.5 Flash (confirmed working)
-        self.gemini_url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent'
-        
-        print('🔄 LLMHandler initialized with Gemini 2.5 Flash')
+        self.gemini_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"        
+        print('🔄 LLMHandler initialized with Gemini 3.5 Flash')
         print(f'🔑 API Key present: {"Yes" if self.gemini_api_key else "No"}')
         
         # Fallback to config if no hardcoded key
@@ -22,9 +21,9 @@ class LLMHandler:
             print('⚠️ Using API key from config')
     
     def generate_answer(self, query: str, context: List[Dict], conversation_history: List[Dict] = None) -> Dict[str, Any]:
-        """Generate answer using Gemini 2.5 Flash with retrieved context"""
+        """Generate answer using Gemini 3.5 Flash with retrieved context"""
         
-        print('🤖 Generating answer with Gemini 2.5 Flash...')
+        print('🤖 Generating answer with Gemini 3.5 Flash...')
         
         # Prepare context text
         context_text = self._prepare_context(context)
@@ -60,7 +59,7 @@ Format the response in a clear, readable way with appropriate sections.
         
         for attempt in range(max_retries):
             try:
-                print(f'📤 Sending request to Gemini 2.5 Flash... (Attempt {attempt + 1}/{max_retries})')
+                print(f'📤 Sending request to Gemini 3.5 Flash... (Attempt {attempt + 1}/{max_retries})')
                 
                 response = requests.post(
                     f"{self.gemini_url}?key={self.gemini_api_key}",
@@ -105,7 +104,7 @@ Format the response in a clear, readable way with appropriate sections.
                         return {
                             "answer": answer,
                             "sources": sources,
-                            "model": "gemini-2.5-flash",
+                            "model": "gemini-3.5-flash",
                             "context_used": len(context)
                         }
                     else:
@@ -114,18 +113,18 @@ Format the response in a clear, readable way with appropriate sections.
                             return {
                                 "answer": "Received an unexpected response format from Gemini API.",
                                 "sources": [],
-                                "model": "gemini-2.5-flash",
+                                "model": "gemini-3.5-flash",
                                 "error": "Unexpected response structure"
                             }
                 
                 elif response.status_code == 404:
-                    error_msg = "The Gemini 2.5 Flash model might not be available. Please check the model name."
+                    error_msg = "The Gemini 3.5 Flash model might not be available. Please check the model name."
                     print(f'❌ {error_msg}')
                     if attempt == max_retries - 1:
                         return {
                             "answer": error_msg,
                             "sources": [],
-                            "model": "gemini-2.5-flash",
+                            "model": "gemini-3.5-flash",
                             "error": "Model not found"
                         }
                 
@@ -136,7 +135,7 @@ Format the response in a clear, readable way with appropriate sections.
                         return {
                             "answer": "There was an issue with the request to Gemini. Please check the input and try again.",
                             "sources": [],
-                            "model": "gemini-2.5-flash",
+                            "model": "gemini-3.5-flash",
                             "error": str(error_data)
                         }
                 
@@ -147,13 +146,13 @@ Format the response in a clear, readable way with appropriate sections.
                     continue
                 
                 elif response.status_code == 403:
-                    error_msg = "Access denied. Please check if your API key has permission to use Gemini 2.5 Flash."
+                    error_msg = "Access denied. Please check if your API key has permission to use Gemini 3.5 Flash."
                     print(f'❌ {error_msg}')
                     if attempt == max_retries - 1:
                         return {
                             "answer": error_msg,
                             "sources": [],
-                            "model": "gemini-2.5-flash",
+                            "model": "gemini-3.5-flash",
                             "error": "Access denied"
                         }
                 
@@ -170,7 +169,7 @@ Format the response in a clear, readable way with appropriate sections.
                     return {
                         "answer": "The Gemini service is taking too long to respond. Please try again later.",
                         "sources": [],
-                        "model": "gemini-2.5-flash",
+                        "model": "gemini-3.5-flash",
                         "error": "Timeout"
                     }
                 time.sleep(2 ** attempt)
@@ -181,7 +180,7 @@ Format the response in a clear, readable way with appropriate sections.
                     return {
                         "answer": "Cannot connect to Gemini service. Please check your internet connection.",
                         "sources": [],
-                        "model": "gemini-2.5-flash",
+                        "model": "gemini-3.5-flash",
                         "error": "Connection error"
                     }
                 time.sleep(2 ** attempt)
@@ -192,7 +191,7 @@ Format the response in a clear, readable way with appropriate sections.
                     return {
                         "answer": f"I encountered an issue while generating the response. Error: {str(e)}",
                         "sources": [],
-                        "model": "gemini-2.5-flash",
+                        "model": "gemini-3.5-flash",
                         "error": str(e)
                     }
                 time.sleep(2 ** attempt)
@@ -201,7 +200,7 @@ Format the response in a clear, readable way with appropriate sections.
         return {
             "answer": "I apologize, but I was unable to generate a response after multiple attempts. Please try again later.",
             "sources": [],
-            "model": "gemini-2.5-flash",
+            "model": "gemini-3.5-flash",
             "error": "Max retries exceeded"
         }
     
@@ -289,24 +288,24 @@ Format the response in a clear, readable way with appropriate sections.
                     return {
                         "status": "success",
                         "message": text,
-                        "model": "gemini-2.5-flash"
+                        "model": "gemini-3.5-flash"
                     }
                 else:
                     return {
                         "status": "error",
                         "message": "Unexpected response structure",
-                        "model": "gemini-2.5-flash"
+                        "model": "gemini-3.5-flash"
                     }
             else:
                 return {
                     "status": "error",
                     "message": f"HTTP {response.status_code}: {response.text[:200]}",
-                    "model": "gemini-2.5-flash"
+                    "model": "gemini-3.5-flash"
                 }
                 
         except Exception as e:
             return {
                 "status": "error",
                 "message": str(e),
-                "model": "gemini-2.5-flash"
+                "model": "gemini-3.5-flash"
             }
